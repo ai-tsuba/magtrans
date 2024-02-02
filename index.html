@@ -8,13 +8,13 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
     <!-- UIkit CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css"
     />
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
@@ -22,6 +22,7 @@
   </head>
   <body class="uk-text-center">
     <div class="">Witany w strefie przewoznika MAGTRANS</div>
+    <div class="topform"><iframe src=""></iframe></div>
     <!-- <div class="">
       <button
         class="uk-button uk-button-danger uk-width-1-1 uk-button-large uk-text-capitalize"
@@ -57,7 +58,7 @@
       type="button"
       uk-toggle="target: #offcanvas-nav-primary"
     >
-      Left Side meny
+      Left Side menu
     </button>
 
     <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
@@ -72,6 +73,7 @@
           <li class="uk-parent">
             <button
               class="uk-button uk-button-danger uk-width-1-1 uk-button-large uk-text-truncate"
+              onclick="displayFrame()"
             >
               Zgloszenie wyjazdu
             </button>
