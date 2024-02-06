@@ -2,6 +2,11 @@
     background-color: red;
     color: #fff;
 }
+
 .uk-offcanvas-bar {
     background: #fff;
+}
+
+body {
+    background-image: url("https://skat.com.pl/wp-content/uploads/2020/07/background3.svg");
 }

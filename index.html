@@ -20,16 +20,47 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
     <script src="js/script.js"></script>
   </head>
-  <body class="uk-text-center">
-    <div class="">Witany w strefie przewoznika MAGTRANS</div>
-    <div class="topform"></div>
-    <button
+
+  <body class="uk-text-center uk-height-1-1 " uk-height-viewport="expand: true">
+    <div class="uk-margin uk-text-bolder uk-text-large"><img src="https://www.magtrans.eu/img/logo.png"></img></div>
+    <div class="uk-margin uk-text-bolder uk-text-large">Witany w strefie przewoznika MAGTRANS</div>
+    <div class="topform uk-margin"></div>
+    <!-- <button
       class="uk-button uk-button-default uk-margin-small-right"
       type="button"
       uk-toggle="target: #offcanvas-nav-primary"
     >
       Left Side menu
-    </button>
+    </button> -->
+
+    <div class="uk-text-center uk-margin" uk-grid>
+      <div class="uk-width-1-2">
+        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+          <a href="#"><h3 class="uk-card-title">MyMAG</h3></a>
+        </div>
+      </div>
+      <div class="uk-width-1-2">
+        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+          <a href="#"><h3 class="uk-card-title">Zgloszenie wyjazdu</h3></a>
+        </div>
+      </div>
+      <div class="uk-width-1-2">
+        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+          <a href="#"><h3 class="uk-card-title">Zgloszenie reklamacji</h3></a>
+        </div>
+      </div>
+      <div class="uk-width-1-2">
+        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+          <a href="#"><h3 class="uk-card-title">Tabela startowa</h3></a>
+        </div>
+      </div>
+      <div class="uk-width-1-2">
+        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+          <a href="#"><h3 class="uk-card-title">Co mozemy ulepszyc?</h3></a>
+        </div>
+      </div>
+
+    </div>
 
     <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
       <div class="uk-offcanvas-bar uk-flex">
@@ -62,7 +93,7 @@
               class="uk-button uk-width-1-1 uk-button-danger uk-button-large uk-text-truncate"
             >
               Co mozemy ulepszyc?
-            </button>
+              
           </li>
         </ul>
       </div>
